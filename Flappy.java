@@ -17,8 +17,8 @@ public class Flappy extends GBSGame {
 
     public static void main(String[] args) {
         Flappy game = new Flappy();
-
-        
+        game.setResolution(400, 600);
+        game.setFrameRate(60);
         game.createWindow();
     }   
 }
